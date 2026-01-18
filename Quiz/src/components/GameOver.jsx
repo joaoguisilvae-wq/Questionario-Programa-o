@@ -13,7 +13,7 @@ const GameOver = () => {
       <h2>Fim de jogo!</h2>
       <p>Pontuação: {quizState.score}</p>
       <p>
-        vc acertou {quizState.score} de {quizState.questions.length}
+        você acertou {quizState.hits} de {quizState.questions.length}
       </p>
       <img src={WellDone} alt="Fim de quiz" />
       <button
